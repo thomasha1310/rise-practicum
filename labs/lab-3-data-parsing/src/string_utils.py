@@ -1,3 +1,7 @@
+import pandas
+import re
+import string
+
 def clean_strings(strings: pandas.Series) -> pandas.Series:
     strings = strings.dropna()
     strings = strings.astype(str)
