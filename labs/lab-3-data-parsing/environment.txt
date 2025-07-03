@@ -4,3 +4,5 @@ matplotlib
 ipykernel
 notebook
 pandas
+re
+string
